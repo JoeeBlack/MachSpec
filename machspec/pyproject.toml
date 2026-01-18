@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "machspec"
+version = "0.1.0"
+description = "MachSpec - XPC Fuzzer & Capability Mapper"
+authors = ["Antigravity"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+rich = "^13.7.0"
+frida-tools = "^12.0"
+sqlalchemy = "^2.0.25"
+
+[tool.poetry.scripts]
+machspec = "machspec.main:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

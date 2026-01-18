@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/rwroblewski/Desktop/Main/Programming/xpc_fuzzer/xpcm/native/XPCClient/.build/arm64-apple-macosx/release/XPCClient.build/XPCClient.d",
+    "object": "/Users/rwroblewski/Desktop/Main/Programming/xpc_fuzzer/xpcm/native/XPCClient/.build/arm64-apple-macosx/release/XPCClient.build/XPCClient.o",
+    "swift-dependencies": "/Users/rwroblewski/Desktop/Main/Programming/xpc_fuzzer/xpcm/native/XPCClient/.build/arm64-apple-macosx/release/XPCClient.build/master.swiftdeps"
+  },
+  "/Users/rwroblewski/Desktop/Main/Programming/xpc_fuzzer/xpcm/native/XPCClient/Sources/XPCClient/main.swift": {
+    "object": "/Users/rwroblewski/Desktop/Main/Programming/xpc_fuzzer/xpcm/native/XPCClient/.build/arm64-apple-macosx/release/XPCClient.build/main.swift.o",
+    "swiftmodule": "/Users/rwroblewski/Desktop/Main/Programming/xpc_fuzzer/xpcm/native/XPCClient/.build/arm64-apple-macosx/release/XPCClient.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/rwroblewski/Desktop/Main/Programming/xpc_fuzzer/xpcm/native/XPCClient/.build/arm64-apple-macosx/release/XPCClient.build/main.swiftdeps",
+    "diagnostics": "/Users/rwroblewski/Desktop/Main/Programming/xpc_fuzzer/xpcm/native/XPCClient/.build/arm64-apple-macosx/release/XPCClient.build/main.dia"
+  }
+}

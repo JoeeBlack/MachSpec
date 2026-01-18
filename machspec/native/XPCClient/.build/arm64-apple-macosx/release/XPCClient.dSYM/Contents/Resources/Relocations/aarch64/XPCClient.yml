@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rwroblewski/Desktop/Main/Programming/xpc_fuzzer/xpcm/native/XPCClient/.build/arm64-apple-macosx/release/XPCClient'
+relocations:
+  - { offset: 0x894F6, size: 0x8, addend: 0x0, symName: _XPCClient_main, symObjAddr: 0x0, symBinAddr: 0x100001B6C, symSize: 0x18 }
+  - { offset: 0x89577, size: 0x8, addend: 0x0, symName: '_$s9XPCClient4mainyyF', symObjAddr: 0x18, symBinAddr: 0x100001B84, symSize: 0x560 }
+  - { offset: 0x8991E, size: 0x8, addend: 0x0, symName: '_$s9XPCClient4mainyyFySo13OS_xpc_object_pYbcfU_', symObjAddr: 0x1190, symBinAddr: 0x100002CFC, symSize: 0x11C }
+  - { offset: 0x89AA3, size: 0x8, addend: 0x0, symName: '_$s9XPCClient13xpc_from_jsonySo03OS_B7_object_pSgypF', symObjAddr: 0x578, symBinAddr: 0x1000020E4, symSize: 0xA28 }
+  - { offset: 0x8A06C, size: 0x8, addend: 0x0, symName: '_$sSo13OS_xpc_object_pIeghg_SoAA_pIeyBhy_TR', symObjAddr: 0x12AC, symBinAddr: 0x100002E18, symSize: 0x48 }
+  - { offset: 0x8A084, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameV2, symObjAddr: 0x12F4, symBinAddr: 0x100002E60, symSize: 0x44 }
+  - { offset: 0x8A098, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x1338, symBinAddr: 0x100002EA4, symSize: 0x10 }
+  - { offset: 0x8A0AC, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1348, symBinAddr: 0x100002EB4, symSize: 0x10 }
+  - { offset: 0x8A0C0, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1358, symBinAddr: 0x100002EC4, symSize: 0x8 }
+  - { offset: 0x8A0D4, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x1360, symBinAddr: 0x100002ECC, symSize: 0x40 }
+  - { offset: 0x8A0E8, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x13A0, symBinAddr: 0x100002F0C, symSize: 0x20 }
+  - { offset: 0x8A0FC, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x13C0, symBinAddr: 0x100002F2C, symSize: 0x3C }
+  - { offset: 0x8A11B, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x13FC, symBinAddr: 0x100002F68, symSize: 0x64 }
+  - { offset: 0x8A148, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0x1460, symBinAddr: 0x100002FCC, symSize: 0x40 }
+  - { offset: 0x8A15C, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOe', symObjAddr: 0x14A0, symBinAddr: 0x10000300C, symSize: 0x14 }
+  - { offset: 0x8A17B, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x14F4, symBinAddr: 0x100003060, symSize: 0xB4 }
+  - { offset: 0x8A1D2, size: 0x8, addend: 0x0, symName: '_$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFSo13OS_xpc_object_p_Tg5032$s9XPCClient13xpc_from_jsonySo03i4_B7_K21_pSgypFSoAC_pSWXEfU0_AA0B0VTf1ncn_nTf4xng_n', symObjAddr: 0x15A8, symBinAddr: 0x100003114, symSize: 0xC4 }
+  - { offset: 0x8A31A, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15withUnsafeBytesyxxSWKXEKlFSo13OS_xpc_object_p_Tg5032$s9XPCClient13xpc_from_jsonySo03f4_B7_H21_pSgypFSoAC_pSWXEfU0_ACTf1cn_n', symObjAddr: 0xFA0, symBinAddr: 0x100002B0C, symSize: 0x1F0 }
+...
