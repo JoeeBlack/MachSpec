@@ -42,7 +42,17 @@ def list_services(db_path):
     db_manager = DBManager(db_path)
     session = db_manager.get_session()
     
-    services = session.query(Service).all()
+    try:
+        services = session.query(Service).all()
+    except Exception as e:
+        console.print(f"[bold red]Error accessing database: {e}[/bold red]")
+        session.close()
+        return
+
+    if not services:
+        console.print("[yellow]No services found in database. Run 'enumerate' first.[/yellow]")
+        session.close()
+        return
     
     table = Table(title="Discovered XPC Services")
     table.add_column("ID", style="cyan", no_wrap=True)
